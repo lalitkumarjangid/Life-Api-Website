@@ -1,0 +1,65 @@
+:root {
+  /* --card-background-color: rgb(95, 92, 255); */
+  --card-background-color: rgb(152, 102, 68);
+}
+
+.financialCard {
+  cursor: pointer;
+  transition: 0.2s;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.financialCard_top > i {
+  color: rgb(255, 255, 255);
+  height: 60px;
+  width: 70px;
+  display: inline-block;
+}
+
+.financialCard_top {
+  background-color: var(--card-background-color);
+}
+
+.financialCard svg {
+  height: 100%;
+  transition: 0.2s;
+  transform: scale(1);
+}
+
+.financialCard:hover svg{
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
+.financialCard:hover {
+  border: 1px solid var(--card-background-color);
+  transition: 0.2s;
+}
+
+.financialCard_bottom {
+  padding: 24px;
+  box-shadow: 2px 2px 4px #ddd;
+}
+
+h2.subtitle {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--site-main-color);
+}
+
+h2.card_title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--site-title-black);
+}
+
+h3.card_subtitle {
+  font-size: 20px;
+  color: var(--site-text-black);
+}
+
+.card_method {
+  font-size: 16px;
+  color: var(--site-text-black);
+}

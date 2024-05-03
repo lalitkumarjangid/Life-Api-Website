@@ -1,0 +1,53 @@
+.simpleCard {
+  background-color: white;
+  text-align: center;
+  min-height: 290px;
+  padding: 32px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.simpleCard:hover {
+  border: 1px solid var(--site-main-color);
+}
+
+.simpleCard_icon {
+  height: 120px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.simpleCard_content {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.simpleCard_title {
+  font-size: 24px;
+  color: var(--site-main-color);
+  font-weight: bold;
+}
+
+.simpleCard_subtitle {
+  font-size: 20px;
+  color: var(--site-text-black);
+}
+
+.simpleCard_text {
+  font-size: 16px;
+  color: var(--site-text-black);
+}
+
+.simpleCard_icon > i {
+  width: 80px;
+  height: 70px;
+  color: var(--site-main-color);
+}
+
+.simpleCard_icon > i > svg {
+  height: 100%;
+}

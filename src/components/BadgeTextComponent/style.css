@@ -1,0 +1,13 @@
+.badgeTextItem > span:first-child {
+  font-size: 10px;
+  border-radius: 20px;
+}
+
+.badgeTextItem > a {
+  color: var(--site-text-black);
+  cursor: pointer;
+}
+
+.badgeTextItem > a:hover {
+  color: var(--site-main-color)
+}
